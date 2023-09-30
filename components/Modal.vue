@@ -8,10 +8,9 @@
       leave-from-class="opacity-100"
       leave-to-class="opacity-0"
     >
-      <div v-if="open" class="fixed w-full h-full z-10 flex">
+      <div v-show="open" class="fixed w-full h-full z-10 flex">
         <div
           class="absolute bg-black opacity-70 inset-0"
-          @click="$emit('close')"
         ></div>
         <div
           class="max-w-4xl relative mx-4 lg:mx-auto my-auto card"

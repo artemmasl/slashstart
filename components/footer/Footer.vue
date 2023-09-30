@@ -5,7 +5,7 @@
       :links="links"
       :socials="socials"
       :ather="ather"
-      @open-modal="openModal()"
+      @open-modal="openModal($event)"
     />
     <FooterMobile
       v-else
@@ -83,6 +83,7 @@ const ather = [
 ];
 
 const openModal = (event) => {
+  console.log(event);
   switch (event) {
     case "work":
       workModal.value = !workModal.value;

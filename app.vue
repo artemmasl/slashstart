@@ -6,7 +6,7 @@
   <div class="page">
     <Header />
 
-     <!--  <NuxtPage /> -->
+      <NuxtPage />
       
     <Footer />
   </div>
