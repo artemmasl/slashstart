@@ -57,7 +57,7 @@
           :class="i > 0 ? 'mt-4' : ''"
           class="cursor-pointer"
           style="color: rgba(90, 195, 0, 1)"
-          @click="link.event()"
+          @click="$emit('open-modal', link.event)"
         >
           {{ link.text }}
         </a>
@@ -69,7 +69,6 @@
 <script setup>
 import { ref } from "vue";
 import logo from "@/assets/logo.svg";
-import InvestModal from "../modals/InvestModal.vue";
 
 const props = defineProps({
   links: {

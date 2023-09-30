@@ -137,7 +137,7 @@
 </template>
 
 <script setup>
-import TarifBlock from "@/components/sections/tarifs/TarifBlock.vue";
+import TarifBlock from "@/components/sections/index-page/tarifs/TarifBlock.vue";
 import bitrix from "@/assets/company-logos/bitrix.png";
 
 const { isDesktop } = useDevice();

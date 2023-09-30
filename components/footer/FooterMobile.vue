@@ -16,8 +16,8 @@
         :key="link.text"
         :class="i > 0 ? 'mt-4' : ''"
         class="cursor-pointer text-bold flex items-center"
-        style="color: #5AC300"
-        @click="link.event()"
+        style="color: #5ac300"
+        @click="$emit('open-modal', link.event)"
       >
         <span class="mr-2">{{ link.text }}</span>
         <svg
@@ -46,14 +46,13 @@
       </a>
     </div>
 
-
     <div class="flex justify-between mt-8">
       <img
         v-for="social in socials"
         :key="social.text"
-        :src="social.src" 
+        :src="social.src"
         :alt="social.text"
-      >
+      />
     </div>
 
     <div class="text text-center my-8">
@@ -65,7 +64,6 @@
 <script setup>
 import { ref } from "vue";
 import logo from "@/assets/logo.svg";
-import InvestModal from "../modals/InvestModal.vue";
 
 const props = defineProps({
   links: {

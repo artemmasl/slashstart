@@ -3,7 +3,7 @@
     <!-- <img :src="robotFull" alt="" class="messager__robot"> -->
 
     <div class="messager__phone">
-      <h1 class="title text-cl-primary">{{ bot.text }}</h1>
+      <h1 class="title text-xl text-cl-primary">{{ bot.text }}</h1>
     </div>
   </div>
 </template>
@@ -22,7 +22,6 @@ const props = defineProps({
 
 <style lang="scss" scoped>
 .messager {
-
   &__phone {
     border-radius: 32px;
     border: 9px solid #C0B2C8;

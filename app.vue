@@ -6,22 +6,13 @@
   <div class="page">
     <Header />
 
-      <NuxtPage />
+     <!--  <NuxtPage /> -->
       
     <Footer />
   </div>
 </template>
 
 <script setup>
-import MainSection from "@/components/sections/MainSection.vue";
-import AboutSections from "@/components/sections/about/AboutSections.vue";
-import HeroSection from "@/components/sections/HeroSection.vue";
-import MissionSection from "@/components/sections/MissionSection.vue";
-import CasesSection from "@/components/sections/CasesSection.vue";
-import MesseagerSection from "@/components/sections/messager/MesseagerSection.vue";
-import InfoSection from "@/components/sections/InfoSection.vue";
-import Possibilities from "@/components/sections/Possibilities.vue";
-import Tarifs from "@/components/sections/tarifs/Tarifs.vue";
 import Footer from "@/components/footer/Footer.vue";
 
 const { isDesktop } = useDevice();

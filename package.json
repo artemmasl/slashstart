@@ -20,6 +20,7 @@
   "dependencies": {
     "@skjnldsv/vue-plyr": "^7.3.1",
     "aos": "^2.3.4",
+    "nuxt-swiper": "^1.2.2",
     "vue-youtube-embed": "^2.2.2"
   }
 }

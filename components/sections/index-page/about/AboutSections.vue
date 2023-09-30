@@ -53,7 +53,7 @@
 </template>
 
 <script setup>
-import SliderBlock from "@/components/sections/about/SliderBlock.vue";
+import SliderBlock from "@/components/sections/index-page/about/SliderBlock.vue";
 import pyramid from "@/assets/pyramid.png";
 </script>
 

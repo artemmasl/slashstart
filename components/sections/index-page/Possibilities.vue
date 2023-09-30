@@ -102,11 +102,13 @@
     <div class="flex justify-center">
       <Button
         class="mt-6 lg:mt-12 px-8 py-4 mx-auto"
+        @click="integrationModal = !integrationModal"
       >
         <span class="text">Предложите свою Интеграцию</span>
       </Button>
     </div>
   </section>
+  <IntegrationModal :open="integrationModal" @close="integrationModal = !integrationModal" />
 </template>
 
 <script setup>
@@ -117,6 +119,11 @@ import youmoney from "@/assets/company-logos/youmoney.png";
 import vk from "@/assets/company-logos/vk.svg";
 import insta from "@/assets/company-logos/insta.svg";
 import telega from "@/assets/company-logos/telega.svg";
+import IntegrationModal from "@/components/modals/IntegrationModal.vue";
+import { ref } from "vue";
+
+const integrationModal = ref(false);
+
 </script>
 
 <style lang="scss" scoped>

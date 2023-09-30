@@ -5,16 +5,20 @@
       :links="links"
       :socials="socials"
       :ather="ather"
+      @open-modal="openModal()"
     />
     <FooterMobile
       v-else
       :links="links"
       :socials="socials"
       :ather="ather"
+      @open-modal="openModal($event)"
     />
   </div>
 
   <InvestModal :open="ivesterModal" @close="ivesterModal = !ivesterModal" />
+  <WorkModal :open="workModal" @close="workModal = !workModal" />
+  <CoopModal :open="coopModal" @close="coopModal = !coopModal" />
 </template>
 
 <script setup>
@@ -27,16 +31,20 @@ import vc from "@/assets/socials/vc.svg";
 import habr from "@/assets/socials/habr.svg";
 import dzen from "@/assets/socials/dzen.svg";
 import InvestModal from "../modals/InvestModal.vue";
-import FooterDesctop from './FooterDesctop.vue';
-import FooterMobile from './FooterMobile.vue';
+import WorkModal from "../modals/WorkModal.vue";
+import CoopModal from "../modals/CoopModal.vue";
+import FooterDesctop from "./FooterDesctop.vue";
+import FooterMobile from "./FooterMobile.vue";
 
 const ivesterModal = ref(false);
+const workModal = ref(false);
+const coopModal = ref(false);
 const { isDesktop } = useDevice();
 
 const links = [
   { text: "Партнерам", href: "#" },
   { text: "Кейсы", href: "#cases" },
-  { text: "Блог", href: "https://slashstart.ru/stream/" },
+  /* { text: "База знаний", href: "https://slashstart.ru/stream/" }, */
   { text: "Конфиденциальность", href: "#" },
   { text: "Договор оферты", href: "#" },
 ];
@@ -44,8 +52,16 @@ const links = [
 const socials = [
   { text: "ВКонтакте", src: vk, href: "https://vk.com/slashstart" },
   { text: "Telegram", src: telegram, href: "https://t.me/slashstartru" },
-  { text: "Instagram", src: instagram, href: "https://www.instagram.com/slashstart.ru/" },
-  { text: "Дзен", src: dzen, href: "https://sso.dzen.ru/install?uuid=f40ea352-0810-43e5-bffe-936799370aa7" },
+  {
+    text: "Instagram",
+    src: instagram,
+    href: "https://www.instagram.com/slashstart.ru/",
+  },
+  {
+    text: "Дзен",
+    src: dzen,
+    href: "https://sso.dzen.ru/install?uuid=f40ea352-0810-43e5-bffe-936799370aa7",
+  },
   { text: "Хабр", src: habr, href: "https://habr.com/ru/users/Slash_Start/" },
   { text: "VC", src: vc, href: "https://vc.ru/u/2329413-slash-start-bot" },
   { text: "Почта", src: vk, href: "#" },
@@ -54,17 +70,31 @@ const socials = [
 const ather = [
   {
     text: "Работа в компании",
-    event: () => (ivesterModal.value = !ivesterModal.value),
+    event: "work",
   },
   {
     text: "Стать инвестором",
-    event: () => (ivesterModal.value = !ivesterModal.value),
+    event: "invest",
   },
   {
     text: "Предложить сотрудничество",
-    event: () => (ivesterModal.value = !ivesterModal.value),
+    event: "coop",
   },
 ];
+
+const openModal = (event) => {
+  switch (event) {
+    case "work":
+      workModal.value = !workModal.value;
+      break;
+    case "invest":
+      ivesterModal.value = !ivesterModal.value;
+      break;
+    case "coop":
+      coopModal.value = !coopModal.value;
+      break;
+  }
+};
 </script>
 
 <style lang="scss" scoped>

@@ -13,8 +13,18 @@
         </p>
       </div>
 
-      <iframe width="100%" src="https://www.youtube.com/embed/McKyEnaHba0" style="aspect-ratio: 2 / 1;" allowfullscreen="allowfullscreen"></iframe>
-      <iframe width="100%" src="https://www.youtube.com/embed/llvv6WzbOwc" style="aspect-ratio: 2 / 1;" allowfullscreen="allowfullscreen"></iframe>
+      <iframe
+        width="100%"
+        src="https://www.youtube.com/embed/bsd26AGtbgs"
+        style="aspect-ratio: 2 / 1"
+        allowfullscreen="allowfullscreen"
+      ></iframe>
+      <iframe
+        width="100%"
+        src="https://www.youtube.com/embed/wbU6zvuqCJU"
+        style="aspect-ratio: 2 / 1"
+        allowfullscreen="allowfullscreen"
+      ></iframe>
     </div>
 
     <div class="slider__controls flex gap-2">

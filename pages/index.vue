@@ -11,15 +11,15 @@
 </template>
 
 <script setup>
-import MainSection from "@/components/sections/MainSection.vue";
-import AboutSections from "@/components/sections/about/AboutSections.vue";
-import HeroSection from "@/components/sections/HeroSection.vue";
-import MissionSection from "@/components/sections/MissionSection.vue";
-import CasesSection from "@/components/sections/CasesSection.vue";
-import MesseagerSection from "@/components/sections/messager/MesseagerSection.vue";
-import InfoSection from "@/components/sections/InfoSection.vue";
-import Possibilities from "@/components/sections/Possibilities.vue";
-import Tarifs from "@/components/sections/tarifs/Tarifs.vue";
+import MainSection from "~/components/sections/index-page/MainSection.vue";
+import AboutSections from "@/components/sections/index-page/about/AboutSections.vue";
+import HeroSection from "~/components/sections/index-page/HeroSection.vue";
+import MissionSection from "~/components/sections/index-page/MissionSection.vue";
+import CasesSection from "~/components/sections/index-page/CasesSection.vue";
+import MesseagerSection from "@/components/sections/index-page/messager/MesseagerSection.vue";
+import InfoSection from "~/components/sections/index-page/InfoSection.vue";
+import Possibilities from "~/components/sections/index-page/Possibilities.vue";
+import Tarifs from "@/components/sections/index-page/tarifs/Tarifs.vue";
 import Footer from "@/components/footer/Footer.vue";
 
 const { isDesktop } = useDevice();

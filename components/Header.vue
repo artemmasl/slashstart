@@ -8,7 +8,7 @@
       <ul class="hidden lg:flex">
         <li v-for="link in links" :key="link.text">
           <NuxtLink
-            class="ml-4 h-48 px-2"
+            class="ml-4 h-48 px-2 link"
             :href="link.to"
           >
             {{ link.text }}
@@ -73,10 +73,10 @@ const links = [
     text: "Кейсы",
     to: "/#cases",
   },
-  {
-    text: "Блог",
+  /* {
+    text: "База знаний",
     to: "https://slashstart.ru/stream/",
-  },
+  }, */
 ];
 </script>
 

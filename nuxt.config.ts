@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     "~/scss/_typo.scss",
     "~/scss/_variables.scss",
   ],
-  modules: ["@nuxtjs/device"],
+  modules: ["@nuxtjs/device", "nuxt-swiper"],
   devtools: { enabled: true },
   postcss: {
     plugins: {

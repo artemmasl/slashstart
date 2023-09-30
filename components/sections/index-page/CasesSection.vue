@@ -35,21 +35,23 @@ import case1 from "@/assets/case-1.png";
 import case2 from "@/assets/case-2.png";
 
 const cases = [
-  { text: '', video: 'https://www.youtube.com/embed/McKyEnaHba0' },
-  { text: '', video: 'https://www.youtube.com/embed/NLBqYJBeYfE' },
+  { text: '', video: 'https://www.youtube.com/embed/W0c2vZpSG_k'},
+  { text: '', video: 'https://www.youtube.com/embed/SDiA2YKLqOU' },
   { 
     title: 'Посмотрите успешные кейсы компании!',
     text: '',
     bg: case1,
   },
-  { text: '', video: 'https://www.youtube.com/embed/ktwzUMV2G4I'  },
+  { text: '', video: 'https://www.youtube.com/embed/iYFrbS5Wk7E'  },
   { 
     title: 'Заставь опыт других работать на себя',
     text: '',
     bg: case2,
   },
-  { text: '', video: 'https://www.youtube.com/embed/NLBqYJBeYfE'  },
-  { text: '', video: 'https://www.youtube.com/embed/NLBqYJBeYfE'  },
+
+  
+  { text: '', video: 'https://www.youtube.com/embed/AT09Ft14Uvc'  },
+  { text: '', video: 'https://www.youtube.com/embed/bsd26AGtbgs'  },
 ];
 </script>
 
