@@ -42,11 +42,11 @@ const coopModal = ref(false);
 const { isDesktop } = useDevice();
 
 const links = [
-  { text: "Партнерам", href: "#" },
+  { text: "Партнерам", href: "/partner" },
   { text: "Кейсы", href: "#cases" },
   /* { text: "База знаний", href: "https://slashstart.ru/stream/" }, */
-  { text: "Конфиденциальность", href: "#" },
-  { text: "Договор оферты", href: "#" },
+  { text: "Конфиденциальность", href: "/privacy" },
+  { text: "Договор оферты", href: "/agreement" },
 ];
 
 const socials = [

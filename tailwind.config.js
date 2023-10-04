@@ -10,6 +10,12 @@ module.exports = {
     "./nuxt.config.{js,ts}",
   ],
   theme: {
+    listStyleType: {
+      disc: 'disc',
+      decimal: 'decimal',
+      square: 'square',
+      roman: 'upper-roman',
+    },
     fontFamily: {
       'sans':  [
         "Inter var, sans-serif",
