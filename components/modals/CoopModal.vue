@@ -1,9 +1,9 @@
 <template>
   <Modal :open="open" @close="$emit('close')">
     <div class="max-w-full">
-      <h1 class="title text-cl-primary text-center">
+      <h2 class="title text-cl-primary text-center">
         Предложить сотрудничество
-      </h1>
+      </h2>
 
       <p class="text mt-4 lg:mt-12">
         Мы приглашаем вас стать ключевой частью нашей процветающей IT-компании.

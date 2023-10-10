@@ -10,7 +10,7 @@
           data-aos-duration="500"
         >
           <div class="z-10 flex flex-col lg:justify-between h-full">
-            <h1 class="title text-cl-primary">Для кого</h1>
+            <h2 class="title text-cl-primary">Для кого</h2>
 
             <ul class="text list-disc ml-4 mt-4">
               <li>крупные компании</li>
@@ -31,9 +31,9 @@
         class="block mt-12 flex justify-between flex-col lg:flex-row lg:px-16"
       >
         <div class="lg:mt-10">
-          <h1 class="text-cl-primary title">
+          <h2 class="text-cl-primary title">
             Конструктор чат-бота без программирования
-          </h1>
+          </h2>
 
           <p class="text mt-6">
             Создайте чат бот самостоятельно просто добавляя нужные блоки

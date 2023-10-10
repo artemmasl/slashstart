@@ -1,7 +1,7 @@
 <template>
   <Modal :open="open" @close="$emit('close')">
     <div class="max-w-full">
-      <h1 class="title text-cl-primary text-center">Стать инвестором</h1>
+      <h3 class="title text-cl-primary text-center">Стать инвестором</h3>
 
       <p class="text mt-4 lg:mt-12">
         Мы приглашаем вас стать частью нашей увлекательной и перспективной

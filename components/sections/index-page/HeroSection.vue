@@ -7,9 +7,9 @@
         data-aos-duration="500"
       >
         <div class="flex flex-col lg:w-1/2">
-          <h1 class="title text-white">
+          <h2 class="title text-white">
             Чат-бот работает даже тогда, когда Вы отдыхаете!
-          </h1>
+          </h2>
 
           <p class="text text-white mt-4 lg:mt-8">
             С чат-ботом вы экономите время менеджера для более важных задач
@@ -24,7 +24,7 @@
           data-aos-duration="500"
         >
           <div class="flex flex-col">
-            <h1 class="title">Постройте автоворонку продаж</h1>
+            <h2 class="title">Постройте автоворонку продаж</h2>
 
             <ul class="text list-disc ml-5 mt-6 lg:mt-10">
               <li>
@@ -51,7 +51,7 @@
 
         <div class="card lg:w-3/5" data-aos="fade-up" data-aos-duration="500">
           <div class="flex flex-col">
-            <h1 class="title text-cl-primary">Сайт по шаблону</h1>
+            <h2 class="title text-cl-primary">Сайт по шаблону</h2>
 
             <p class="text mt-6 lg:mt-10">
               Сделайте свой сайт за 5 минут без необходимости оплачивать домены!

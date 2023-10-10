@@ -3,7 +3,7 @@
     <div class="grid lg:grid-cols-2 gap-8 lg:gap-16">
       <div>
         <div class="card card__green info__bg-template">
-          <h1 class="title">База шаблонов</h1>
+          <h2 class="title">База шаблонов</h2>
 
           <p class="text mt-4 lg:mt-12">Выбирайте шаблон под свою нишу.</p>
         </div>
@@ -14,7 +14,7 @@
           data-aos-duration="1000"
           data-aos-offset="200"
         >
-          <h1 class="title">Статистика</h1>
+          <h2 class="title">Статистика</h2>
 
           <p class="text mt-4 lg:mt-12">
             Используйте UTM-метки и контролируйте потоки трафика.
@@ -30,7 +30,7 @@
           data-aos-duration="1000"
           data-aos-offset="200"
         >
-          <h1 class="title">Коробочные решения</h1>
+          <h2 class="title">Коробочные решения</h2>
 
           <p class="text mt-4 lg:mt-12">
             Выбирая коробочное решение, Вы экономите свое время на настройку
@@ -64,7 +64,7 @@
           data-aos-duration="1000"
           data-aos-offset="200"
         >
-          <h1 class="title">Уникальные дизайны</h1>
+          <h2 class="title">Уникальные дизайны</h2>
 
           <p class="text mt-4 lg:mt-12">
             Создайте собственный дизайн, который будет выделять вас среди
@@ -102,7 +102,7 @@
           data-aos-duration="1000"
           data-aos-offset="200"
         >
-          <h1 class="title">Рассылки</h1>
+          <h2 class="title">Рассылки</h2>
 
           <p class="text mt-4 lg:mt-12">
             Оповещайте пользователей о новинках в вашем магазине, напоминайте о

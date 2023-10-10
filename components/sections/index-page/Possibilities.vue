@@ -12,7 +12,7 @@
       >
         <div class="flex items-center">
           <img class="w-12 lg:w-auto" :src="bitrix" alt="Bitrix" />
-          <h1 class="title ml-4">Битрикс24</h1>
+          <h2 class="title ml-4">Битрикс24</h2>
         </div>
 
         <p class="text mt-6 lg:mt-12">
@@ -30,7 +30,7 @@
       >
         <div class="flex items-center">
           <img class="w-12 lg:w-auto" :src="bizon" alt="Бизон 365" />
-          <h1 class="title ml-4">Бизон 365</h1>
+          <h2 class="title ml-4">Бизон 365</h2>
         </div>
 
         <p class="text mt-6 lg:mt-12">
@@ -49,7 +49,7 @@
       >
         <div class="flex items-center">
           <img class="w-12 lg:w-auto" :src="getcourse" alt="Getcourse" />
-          <h1 class="title ml-4">Getcourse</h1>
+          <h2 class="title ml-4">Getcourse</h2>
         </div>
 
         <p class="text mt-6 lg:mt-12">
@@ -67,7 +67,7 @@
       >
         <div class="flex items-center">
           <img class="w-12 lg:w-auto" :src="youmoney" alt="ЮMoney" />
-          <h1 class="title ml-4">ЮMoney</h1>
+          <h2 class="title ml-4">ЮMoney</h2>
         </div>
 
         <p class="text mt-6 lg:mt-12">
@@ -89,7 +89,7 @@
         <img class="w-8 lg:w-max" :src="telega" alt="telega" />
         <img class="w-8 ml-2 lg:w-max" :src="insta" alt="insta" />
         <img class="w-8 ml-2 lg:w-max" :src="vk" alt="vk" />
-        <h1 class="title ml-2 lg:w-max">Мессенджеры</h1>
+        <h2 class="title ml-2 lg:w-max">Мессенджеры</h2>
       </div>
 
       <p class="text mt-6 lg:mt-12">

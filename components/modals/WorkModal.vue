@@ -1,7 +1,7 @@
 <template>
   <Modal :open="open" @close="$emit('close')">
     <div class="max-w-full">
-      <h1 class="title text-cl-primary text-center">Работа в компании</h1>
+      <h3 class="title text-cl-primary text-center">Работа в компании</h3>
 
       <p class="text mt-4 lg:mt-12">
         Приглашаем Вас присоединиться к нашей команде! 

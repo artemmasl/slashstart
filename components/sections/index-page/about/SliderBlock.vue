@@ -5,7 +5,7 @@
       :style="{ marginLeft: -(100 * slectedSlide) + '%' }"
     >
       <div class="slider__offer slider__item">
-        <h1 class="title">Что предлагаем?</h1>
+        <h2 class="title">Что предлагаем?</h2>
 
         <p class="text mt-4 lg:mb-4 w-full">
           Экономьте на разработке сайта и приложения с нашим инструментом <br />
